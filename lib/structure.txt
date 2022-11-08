@@ -1,0 +1,20 @@
+Sequence of files in this app are as follows--->>
+
+1) main.dart file for the main function --->> (2) homepage.dart is called from the main file 
+
+3) In Models folder the file "cryptocurrency.dart" is made to have "CryptoCurrency class" & cunstructor CryptoCurrency 
+    and then a factory function to get the data from the api ..this will return a CryptoCurrency class.
+
+4) API.dart file --- .. to fetch data from api 
+
+5) market_provider.dart to give the data fetched to proivder -- change notifier (e.g.TV) --->>  changeNotifierProveder (e.g. shopkeeper)
+
+(6)  edit main file --> add multiprovider in main file -- so that har jagah baar baar changeNotifierProveder call na krna pade
+    isme ek he baar list ban jata hai sare providers ka aur child me baki ka function return kara do
+    
+(7) video no - 4 me Constats folder me theme.dart banana pada theme set krne ke liye isme shared preference bhi use kruga theme ko yaad rkhne ke liye
+    isme theme_prvider.dart bhi bana pada themes ke beech me toggle karne ke liye
+    provider me hamesa change notifier hota hai jo ki isi file me banega --->> fir isi change notifier me 
+    ek functionj bhi hota hai isko change karne ke liye --->> uske baad notifylistener bhi karna padta hai
+    jisse ki jab theme change ho tab hamare app ko pata chale ki haan kuch change ho chuka hai ..
+    fir app me 
